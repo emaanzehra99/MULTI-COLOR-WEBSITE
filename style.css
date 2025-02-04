@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --firstcolor: rgb(161, 161, 197);
+    --secondcolor: white;
+    --thirdcolor: rgb(126, 7, 238);
+    --shadow: 5px 5px 15px 5px #888888;
+}
+
+body {
+    background-color: var(--firstcolor);
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 34px;
+}
+
+ul {
+    background-color: var(--thirdcolor);
+    padding: 20px 0;
+    box-shadow: var(--shadow);
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondcolor);
+    font-family: Outfit;
+    text-decoration: underline var(--secondcolor);
+    font-weight: bolder;
+}
